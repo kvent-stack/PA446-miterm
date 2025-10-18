@@ -1,0 +1,27 @@
+---
+title: "PA 406 Midterm"
+author: "Kylie Vento"
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_depth: 2
+---
+
+```{r}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+# Data Transparency and Public Trust
+
+In public life, information is a currency of trust. When residents can’t see how decisions are made - confidence in local government erodes. Lingering questions remain outstanding - how budgets are spent, how zoning lines shift, how 311 requests are prioritized. Transparency isn’t just about publishing data - it’s about designing data that people can understand and use. Raw spreadsheets buried on agency websites don’t build accountability. Utilizing clear visualizations, interactive dashboards, and plain-language summaries do.
+
+I first learned how complex “transparency” can be during my years at NCSolutions, where our work measured advertising effectiveness using anonymized consumer data. Every project required us to balance precision with protection - ensuring insights were meaningful while individual privacy remained airtight. We built models that revealed population-level patterns without exposing any single person’s behavior. That balance between clarity and care is at the core of public data ethics too.
+
+In government, the same principle applies. Chicago’s open data portal is a powerful foundation, but it still reflects a one-way model of information: government posts, residents interpret. A solid next step is participatory transparency - structures that invite communities to question, verify, and contextualize the data they see. That's not to say that publishing 311 complaint data isn't valuable. Publishing resolution rates by neighborhood and inviting residents to annotate or contextualize them adds meaning.
+
+The data infrastructure, collection and reporting already exists. The challenge is human infrastructure: equipping departments to communicate findings clearly, potentially employing data consultants to bridge the gap from raw data to a reputable analytics report, and training residents to interpret trends responsibly. When transparency respects both privacy and public understanding, it strengthens trust without compromising the safety and integrity of the data. That’s the lesson I carried from the private sector to civic analytics: data should illuminate systems, not individuals. When we design for both insight and integrity, we earn the right to call data a public good.
+
+```{r}
+cat('<hr><p style="font-size:12px;color:#6c757d">© ', format(Sys.Date(), "%Y"), ' Kylie Vento • Theme: flatly • Built with R Markdown</p>', sep = "")
+```
