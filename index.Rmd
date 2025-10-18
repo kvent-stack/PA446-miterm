@@ -8,7 +8,7 @@ output:
     toc_depth: 2
 ---
 
-```{r}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
@@ -22,6 +22,7 @@ In government, the same principle applies. Chicago’s open data portal is a pow
 
 The data infrastructure, collection and reporting already exists. The challenge is human infrastructure: equipping departments to communicate findings clearly, potentially employing data consultants to bridge the gap from raw data to a reputable analytics report, and training residents to interpret trends responsibly. When transparency respects both privacy and public understanding, it strengthens trust without compromising the safety and integrity of the data. That’s the lesson I carried from the private sector to civic analytics: data should illuminate systems, not individuals. When we design for both insight and integrity, we earn the right to call data a public good.
 
-```{r}
-cat('<hr><p style="font-size:12px;color:#6c757d">© ', format(Sys.Date(), "%Y"), ' Kylie Vento • Theme: flatly • Built with R Markdown</p>', sep = "")
+```{r footer, echo=FALSE, results='asis'}
+cat('<hr><p style="font-size:12px;color:#6c757d">© ',format(Sys.Date(), "%Y"),
+    ' Kylie Vento • Theme: flatly • Built with R Markdown</p>', sep = "")
 ```
